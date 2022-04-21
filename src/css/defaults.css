@@ -1,0 +1,17 @@
+.pos-abs{
+    position: absolute;
+}
+
+
+.pos-rel{
+    position: relative;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.b1{
+    border: 1px solid black;
+}

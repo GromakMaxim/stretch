@@ -1,0 +1,110 @@
+.top-banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pics/top_banner/top_banner.jpg") no-repeat center center scroll;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: cover; /* Современные браузеры */
+}
+
+.top-banner > div > .title {
+    display: flex;
+    margin: auto;
+
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 100px;
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.top-banner > div > .subtitle {
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.wrap {
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.location {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.location-pic {
+    filter: invert(100%);
+    margin: auto auto 20px;
+}
+
+.address {
+    width: 200px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    letter-spacing: 0px;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.courses {
+    width: 100%;
+}
+
+
+.course-panel {
+    padding: 30px;
+    cursor: pointer;
+    font-size: 22px;
+    line-height: 1.35;
+    color: white;
+
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+
+.course-action {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+}
+
+.course-description {
+    font-size: 22px;
+    line-height: 1.35;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.course-bgr-pink {
+    background-color: #d94681;
+}
+
+.course-bgr-orange {
+    background-color: #ff8562;
+}
