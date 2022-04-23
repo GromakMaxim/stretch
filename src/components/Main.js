@@ -5,6 +5,7 @@ import '../css/defaults.css';
 import AvailableCourses from "./sections/courses/AvailableCourses";
 import SocialMediaWidget from "./sections/social/SocialMediaWidget";
 import FastFunctionsWidget from "./sections/fast_functions/FastFunctionsWidget";
+import AboutFounderWidget from "./sections/about_founder/AboutFounderWidget";
 
 export default class Main extends Component {
     render() {
@@ -14,6 +15,7 @@ export default class Main extends Component {
                 <AvailableCourses/>
                 <SocialMediaWidget/>
                 <FastFunctionsWidget/>
+                <AboutFounderWidget/>
             </div>
         );
     }

@@ -157,3 +157,31 @@
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 300;
 }
+
+.about-founder{
+    background: linear-gradient(#e5a673, #cf894e);
+}
+
+.founder-pic{
+    width: 50%;
+    max-width: 700px;
+    margin: auto;
+
+}
+
+.about-founder{
+    padding: 40px;
+}
+
+.about-text{
+    background-color: white;
+    padding: 30px;
+    height: max-content;
+    margin-right: 40px;
+    max-width: 500px;
+    font-weight: 300;
+    color: #000;
+    font-size: 14px;
+    font-family: Roboto, serif;
+    line-height: 1.55;
+}
