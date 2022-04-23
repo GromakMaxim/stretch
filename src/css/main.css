@@ -108,3 +108,14 @@
 .course-bgr-orange {
     background-color: #ff8562;
 }
+
+.socials{
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social{
+    margin-left: 10px;
+    margin-right: 10px;
+}

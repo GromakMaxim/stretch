@@ -3,6 +3,7 @@ import '../css/main.css';
 import TopBanner from "./sections/TopBanner";
 import '../css/defaults.css';
 import AvailableCourses from "./sections/courses/AvailableCourses";
+import SocialMediaWidget from "./sections/social/SocialMediaWidget";
 
 export default class Main extends Component {
     render() {
@@ -10,6 +11,7 @@ export default class Main extends Component {
             <div>
                 <TopBanner/>
                 <AvailableCourses/>
+                <SocialMediaWidget/>
             </div>
         );
     }
