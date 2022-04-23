@@ -21,6 +21,13 @@
     background-position: center center;
     border-color: transparent;
     border-style: solid;
+    justify-content: center
+}
+
+@media screen and (max-width: 600px) {
+    .top-banner > div > .title {
+        font-size: 2em;
+    }
 }
 
 .top-banner > div > .subtitle {
@@ -138,10 +145,9 @@
     transition: background-color 1s ease;
 }
 
-.ff:hover{
+.ff:hover {
     background-color: darkgray;
 }
-
 
 
 .ff-title {
@@ -158,23 +164,36 @@
     font-weight: 300;
 }
 
-.about-founder{
+.about-founder {
     background: linear-gradient(#e5a673, #cf894e);
 }
 
-.founder-pic{
+
+.founder-pic {
     width: 50%;
     max-width: 700px;
     margin: auto;
 
 }
 
-.about-founder{
+.about-founder {
     padding: 40px;
     margin-top: 20px;
 }
 
-.about-text{
+@media screen and (max-width: 600px) {
+    .founder-pic {
+        display: none
+    }
+
+    .about-founder {
+        padding: 0;
+    }
+}
+
+
+
+.about-text {
     background-color: white;
     padding: 30px;
     height: max-content;
@@ -185,4 +204,74 @@
     font-size: 14px;
     font-family: Roboto, serif;
     line-height: 1.55;
+}
+
+.feedback-section {
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 600px) {
+    .feedback-section{
+        margin: 30px auto auto;
+        padding: 0;
+    }
+}
+
+
+.fb {
+    width: 30%;
+    min-width: 400px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .fb {
+        min-width: 300px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+.fb-tail {
+    width: 0;
+    height: 0;
+    border-top: 50px solid black;
+    border-right: 50px solid transparent;
+    margin-left: 50px;
+}
+
+.fb-text {
+    background: black;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 1.55;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.author-avatar {
+    border: 3px solid black;
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.author-fio {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    font-weight: 700;
+    cursor: pointer;
 }
