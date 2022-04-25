@@ -7,6 +7,7 @@ import SocialMediaWidget from "./sections/social/SocialMediaWidget";
 import FastFunctionsWidget from "./sections/fast_functions/FastFunctionsWidget";
 import AboutFounderWidget from "./sections/about_founder/AboutFounderWidget";
 import FeedbackWidget from "./sections/feedback/FeedbackWidget";
+import QuestionsWidget from "./sections/questions/QuestionsWidget";
 
 export default class Main extends Component {
     render() {
@@ -18,6 +19,7 @@ export default class Main extends Component {
                 <FastFunctionsWidget/>
                 <AboutFounderWidget/>
                 <FeedbackWidget/>
+                <QuestionsWidget/>
             </div>
         );
     }

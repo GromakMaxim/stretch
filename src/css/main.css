@@ -192,7 +192,6 @@
 }
 
 
-
 .about-text {
     background-color: white;
     padding: 30px;
@@ -216,8 +215,9 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 @media screen and (max-width: 600px) {
-    .feedback-section{
+    .feedback-section {
         margin: 30px auto auto;
         padding: 0;
     }
@@ -237,7 +237,6 @@
         margin-bottom: 20px;
     }
 }
-
 
 
 .fb-tail {
@@ -274,4 +273,36 @@
     margin-left: 10px;
     font-weight: 700;
     cursor: pointer;
+}
+
+.qa-list {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.35;
+}
+
+.question,
+.answer {
+    padding: 20px;
+}
+
+.answer {
+    transition: height 1s ease;
+}
+
+.answer.opened {
+    height: auto;
+}
+
+.answer.closed {
+    overflow: hidden;
+    height: 0;
+    padding: 0;
 }
