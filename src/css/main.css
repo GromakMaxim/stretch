@@ -286,6 +286,19 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 1.35;
+
+    padding-right: 30px;
+    justify-content: space-between;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+
+    background-color: white;
+    transition: background-color 1s ease;
+}
+
+.question:hover{
+    background-color: #f36d00;
 }
 
 .question,
@@ -293,13 +306,11 @@
     padding: 20px;
 }
 
-.question{
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-top: 1px solid black;
+.question, .question-title {
+    align-items: center;
 }
 
-.answer{
+.answer {
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
@@ -317,4 +328,9 @@
     overflow: hidden;
     height: 0;
     padding: 0;
+}
+
+.question-more > .more {
+    max-width: 50px;
+    max-height: 50px;
 }

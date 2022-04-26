@@ -34,8 +34,13 @@ export default class Question extends Component {
 
         return (
             <div className='question-wrapper'>
-                <div className='question' onClick={this.clickHandler}>
-                    {this.props.q}
+                <div className='question flex-row' onClick={this.clickHandler}>
+                    <div className='question-title'>
+                        <span>{this.props.q}</span>
+                    </div>
+                    <div className='question-more flex-col'>
+                        <img className='more' src={this.props.btnPic}/>
+                    </div>
                 </div>
                 <div className={classes}>
                     {this.props.children}

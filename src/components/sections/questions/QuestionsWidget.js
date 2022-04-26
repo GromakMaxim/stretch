@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Question from "./Question";
 import addressPic from '../../../pics/Q&A/address1.png';
+import moreBtn from '../../../pics/Q&A/plus_w.png';
 
 export default class QuestionsWidget extends Component {
 
@@ -54,7 +55,7 @@ export default class QuestionsWidget extends Component {
     render() {
         return (
             <div className='qa-list'>
-                <Question q='Что взять с собой на тренировку?'>
+                <Question q='Что взять с собой на тренировку?' btnPic={moreBtn}>
                     <div className='answer-descr'>
                         Форма для занятий:<br/>
                         - футболка;<br/>
@@ -68,7 +69,7 @@ export default class QuestionsWidget extends Component {
                     </div>
                 </Question>
 
-                <Question q='Как добраться?'>
+                <Question q='Как добраться?' btnPic={moreBtn}>
                     <div className='answer-descr flex-col'>
                         <img className='how-to-get-there' src={addressPic}/>
                         ул Пионерская 1, этаж 3, офис 312
