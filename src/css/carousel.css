@@ -1,0 +1,35 @@
+.carousel{
+    max-height: 567px;
+}
+
+.slick-slide{
+    width: 100%;
+}
+
+.slide{
+    display: flex;
+    background-color: black;
+    max-height: 567px;
+}
+
+.slide > img{
+    max-width: 1008px;
+    max-height: 567px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button.slick-next{
+    border-radius: 60px;
+    width: 40px;
+    height: 40px;
+    right: 25px;
+    z-index: 1;
+}
+
+button.slick-prev{
+    border-radius: 60px;
+    width: 40px;
+    height: 40px;
+    left: 25px;
+    z-index: 1;
+}
