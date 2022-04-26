@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import Question from "./Question";
-import addressPic from '../../../pics/Q&A/address.png';
+import addressPic from '../../../pics/Q&A/address1.png';
 
 export default class QuestionsWidget extends Component {
 
@@ -69,8 +69,9 @@ export default class QuestionsWidget extends Component {
                 </Question>
 
                 <Question q='Как добраться?'>
-                    <div className='answer-descr'>
-                        <img className={} src={addressPic}/>
+                    <div className='answer-descr flex-col'>
+                        <img className='how-to-get-there' src={addressPic}/>
+                        ул Пионерская 1, этаж 3, офис 312
                     </div>
                 </Question>
             </div>

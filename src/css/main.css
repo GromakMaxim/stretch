@@ -293,12 +293,24 @@
     padding: 20px;
 }
 
+.question{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.answer{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
 .answer {
     transition: height 1s ease;
 }
 
 .answer.opened {
     height: auto;
+    border-top: 1px solid black;
 }
 
 .answer.closed {

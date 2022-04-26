@@ -27,14 +27,14 @@ export default class Question extends Component {
     render() {
         let classes;
         if (this.state.opened) {
-            classes = 'answer b1 opened';
+            classes = 'answer opened';
         } else {
-            classes = 'answer b1 closed';
+            classes = 'answer closed';
         }
 
         return (
             <div className='question-wrapper'>
-                <div className='question b1' onClick={this.clickHandler}>
+                <div className='question' onClick={this.clickHandler}>
                     {this.props.q}
                 </div>
                 <div className={classes}>
