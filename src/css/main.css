@@ -359,6 +359,22 @@
     margin-bottom: 20px;
 }
 
+@media screen and (max-width: 600px) {
+    .wrapper-map > div > iframe{
+        display: none;
+    }
+
+    .wrapper-map > div{
+        position: unset;
+    }
+
+    .wrapper-map > div > .map-card{
+        position: relative;
+        right: unset;
+        width: 100%;
+    }
+}
+
 .map-card {
     background-color: white;
     width: 380px;
