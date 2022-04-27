@@ -27,12 +27,19 @@ export default function Map(props) {
                         <span>ул. Пионерская 1, этаж 3, офис 312</span>
                     </div>
                     <div className='card-phones'>
-                        <span>8 (914) 209-72-94</span>
+                        <span>8 (914) 209-72-84</span>
                     </div>
                     <div className='social-links flex-row'>
-                        <img className='social-link vk' src={vk}/>
-                        <img className='social-link wa' src={wa}/>
-                        <img className='social-link tg' src={tg}/>
+                        <a href='https://vk.com/need.stretching'>
+                            <img className='social-link vk' src={vk} alt='vk link'/>
+                        </a>
+                        <a href="https://web.whatsapp.com/send?phone=89142097284&text&app_absent=0">
+                            <img className='social-link wa' src={wa} alt='whatsapp link'/>
+                        </a>
+
+                        <a href='https://t.me/needstretching'>
+                            <img className='social-link tg' src={tg} alt='telegram link'/>
+                        </a>
                     </div>
                 </div>
             </div>
