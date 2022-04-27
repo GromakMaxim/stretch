@@ -11,6 +11,7 @@ import FeedbackWidget from "./sections/feedback/FeedbackWidget";
 import QuestionsWidget from "./sections/questions/QuestionsWidget";
 import Carousel from "./sections/photos/Carousel";
 import Map from "./sections/map/Map";
+import Footer from "./sections/footer/Footer";
 
 export default class Main extends Component {
     render() {
@@ -25,6 +26,7 @@ export default class Main extends Component {
                 <QuestionsWidget/>
                 <Carousel/>
                 <Map/>
+                <Footer/>
             </div>
         );
     }

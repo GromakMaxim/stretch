@@ -428,3 +428,15 @@
 .social-link{
     width: 40px;
 }
+
+footer{
+    width: 100%;
+    height: 50px;
+    color: black;
+    margin-top: 100px;
+
+    align-items: center;
+    text-align: center;
+    font-family: Circe, Montserrat, sans-serif;
+    font-size: 15px;
+}
