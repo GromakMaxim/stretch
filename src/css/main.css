@@ -343,7 +343,7 @@
     margin-top: 70px;
 }
 
-.wrapper-map > span{
+.wrapper-map > span {
 
 }
 
@@ -359,11 +359,72 @@
     margin-bottom: 20px;
 }
 
-.map-card{
+.map-card {
     background-color: white;
     width: 380px;
     height: 540px;
-    right: 150px;
-    padding: 20px;
+    right: 170px;
     top: 0;
+}
+
+.card-logo-wrapper{
+    display: flex;
+    padding: 40px;
+}
+
+.card-logo {
+    max-width: 200px;
+    border-radius: 9999px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+}
+
+.card-subtitle{
+    align-items: center;
+    text-align: center;
+
+    font-size: 16px;
+    line-height: 1.65;
+    font-family: 'Circe', Montserrat,sans-serif;
+}
+
+.card-address{
+    align-items: center;
+    text-align: center;
+
+    font-size: 16px;
+    line-height: 1.65;
+    font-family: 'Circe', Montserrat,sans-serif;
+
+}
+
+.card-phones{
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    font-weight: 500;
+    line-height: 1.65;
+    font-family: 'Circe', Montserrat,sans-serif;
+}
+
+.social-links{
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.social-link{
+    width: 40px;
 }
